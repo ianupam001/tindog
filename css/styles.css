@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: grey;
+}
+.big-Heading {
+  font-family: "Montserrat-Black";
+  size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Color-section */
+
+.pink-section {
+  background-color: #fa0663;
+}
+.white-section {
+  color: #ffff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+#title {
+  color: #ffff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-img {
+  width: 58%;
+  transform: rotate(25deg);
+  right: 35%;
+}
+/* Features */
+#features {
+  background-color: #ffff;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5%;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: rgb(236, 29, 191);
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    width: 58%;
+    transform: rotate(0);
+  }
+}
+/* Footer */
+#footer {
+  background-color: black;
+  margin: auto 0;
+  font-size: 1rem;
+}
+.footer-icon {
+  margin: 1%;
+  padding: 1px;
+  font-size: 2rem;
+  color: #ffff;
+}
+.footer-icon:hover {
+  color: #fa0663;
+}
